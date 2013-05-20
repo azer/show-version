@@ -1,6 +1,6 @@
 ## show-version
 
-Shows the name and version of parent package and exists
+Shows the name and version of parent package and exits. See Also: [show-version](http://github.com/azer/show-version)
 
 ## Install
 
