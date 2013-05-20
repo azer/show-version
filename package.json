@@ -1,0 +1,19 @@
+{
+  "name": "show-version",
+  "version": "0.0.0",
+  "description": "Shows the name and version of parent package and exists",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "version",
+    "command"
+  ],
+  "repository": {
+    "url": "git@github.com:azer\/show-version.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD"
+}
