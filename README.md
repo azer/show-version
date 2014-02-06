@@ -11,7 +11,7 @@ $ npm install show-version
 ## Usage
 
 ```js
-if(argv.version) require('show-version');
+if(argv.version) require('show-version')();
 ```
 
 will output:
