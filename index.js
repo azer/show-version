@@ -1,11 +1,9 @@
-var path     = require('path'),
-    manifest = require(path.join(__dirname, '../../package.json'));
+var path = require('path');
 
 module.exports = showVersion;
 
-function showVersion(){
+function showVersion (dir) {
+  var manifest = require(path.join(__dirname, dir || '', '../../package.json'));
   console.log('\n  ' + manifest.name + ' v' + manifest.version + '\n');
   process.exit(0);
 }
-
-showVersion();
