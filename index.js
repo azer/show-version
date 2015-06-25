@@ -5,7 +5,7 @@ var path     = require('path'),
 module.exports = showVersion;
 
 function showVersion(){
-  puts('\n  ' + manifest.name + ' v' + manifest.version + '\n');
+  console.log('\n  ' + manifest.name + ' v' + manifest.version + '\n');
   process.exit(0);
 }
 
