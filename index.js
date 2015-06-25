@@ -1,5 +1,4 @@
 var path     = require('path'),
-    puts     = require('util').puts,
     manifest = require(path.join(__dirname, '../../package.json'));
 
 module.exports = showVersion;
