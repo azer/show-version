@@ -1,6 +1,6 @@
 {
   "name": "show-version",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shows the name and version of parent package and exists",
   "main": "index.js",
   "scripts": {
